@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3464AB2C1771C49C00B159F7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F889213D161E117C00D11FD2 /* Default-568h@2x.png */; };
+		3464AB2E1771C4F400B159F7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3464AB2D1771C4F400B159F7 /* MobileCoreServices.framework */; };
 		F81D902B16F3DECE0043C85A /* NSValueTransformer+TransformerKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D902516F3DECE0043C85A /* NSValueTransformer+TransformerKit.m */; };
 		F81D905716F3DEF60043C85A /* NSString+InflectorKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D905416F3DEF60043C85A /* NSString+InflectorKit.m */; };
 		F81D905816F3DEF60043C85A /* TTTStringInflector.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D905616F3DEF60043C85A /* TTTStringInflector.m */; };
@@ -39,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3464AB2D1771C4F400B159F7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		F81D902416F3DECE0043C85A /* NSValueTransformer+TransformerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+TransformerKit.h"; sourceTree = "<group>"; };
 		F81D902516F3DECE0043C85A /* NSValueTransformer+TransformerKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+TransformerKit.m"; sourceTree = "<group>"; };
 		F81D902A16F3DECE0043C85A /* TransformerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformerKit.h; sourceTree = "<group>"; };
@@ -105,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3464AB2E1771C4F400B159F7 /* MobileCoreServices.framework in Frameworks */,
 				F8B77D98161E43EC00A88B7F /* SystemConfiguration.framework in Frameworks */,
 				F8892111161E113100D11FD2 /* UIKit.framework in Frameworks */,
 				F8892113161E113100D11FD2 /* Foundation.framework in Frameworks */,
@@ -166,6 +170,7 @@
 		F889210F161E113100D11FD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3464AB2D1771C4F400B159F7 /* MobileCoreServices.framework */,
 				F8B77D97161E43EC00A88B7F /* SystemConfiguration.framework */,
 				F8892110161E113100D11FD2 /* UIKit.framework */,
 				F8892112161E113100D11FD2 /* Foundation.framework */,
@@ -301,7 +306,7 @@
 		F8892103161E113100D11FD2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = AFNetworking;
 			};
 			buildConfigurationList = F8892106161E113100D11FD2 /* Build configuration list for PBXProject "CheckIns Example" */;
@@ -326,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3464AB2C1771C49C00B159F7 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
